@@ -24,6 +24,7 @@ comment-level-odd', ' comment-level-even'); } else { echo ' comment-parent'; } $
             <?php $comments->threadedComments($options); ?>
         </div>
         <?php } ?>
+        <?php $comments->reply(); ?>
     </li>
 <?php } ?>
 
